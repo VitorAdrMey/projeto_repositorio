@@ -7,7 +7,7 @@ body {
 }
         
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     background-color: gainsboro;
     color: gray;
@@ -39,7 +39,7 @@ footer {
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
-   background-color: rgb(255, 0, 0);
+   background-color: rgb(207, 7, 7);
    padding: 20px 20px;
  }
  
@@ -50,6 +50,23 @@ footer {
  }
 
  .filmes{
+   width: 100%;
+   padding-top: 100px;
+   padding-left: 315px; 
+ }
+
+ p{
+   margin-left: 400px ;
+   justify-content: center;
+ }
+
+ input#btImg{
+ 
+ }
+
+ .filme{
+   display: flex;
+   flex-direction:column ;
    height: 300px;
    width: 200px;
  }
