@@ -19,4 +19,37 @@ footer {
  .insta{
     height: 50px;
     width: 50px;
+    
+ }
+
+ .salvar{
+    background-color: greenyellow;
+ }
+
+ .cancelar{
+    background-color: gray;
+ }
+
+ fieldset{
+    position: relative;
+ }
+
+ header {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   background-color: rgb(255, 0, 0);
+   padding: 20px 20px;
+ }
+ 
+ nav {
+   width: 200px;
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .filmes{
+   height: 300px;
+   width: 200px;
  }

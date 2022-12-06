@@ -8,18 +8,85 @@
     <title>Document</title>
 </head>
 <body>
-    <center> 
-   <fieldset>
-     
-    Titulo: <input type="text"><br>
-    Elenco: <input type="text"><br>
-    Digite sua sinopse:<input type="text"><br>
-    Produtora: <input type="text"><br>
-    Duração do filme<input type="text"><br>
-    Faixa etária: <input type="text"><br>
-    Destaque<input type="checkbox"><br>
+    <header> 
+        <h1>FilmeFlix</h1>
+        <form>
+          <input placeholder='Pesquisar'/>
+          <button>Enviar</button>
+        </form>
+        <nav>
+            <a href='/catalogo.html'>Home</a>
+            <a href='/empregos.html'>Sobre</a>
+            <a href='/central.html'>Contato</a>
+        </nav>
+      </header>
 
-</fieldset>
+    <center> 
+        <main>
+            <center> 
+            <fieldset>
+
+                <forms> 
+        
+        
+        
+                <h3><label for="">cadastrar filme:</label></h3>
+
+                <br>
+        
+                <tr>
+                    <td><label for="nome">Titulo:</label></td>
+                    <td><input type="text" ></td>
+                </tr>
+                <br><br>
+                <tr>
+                    <td><label for="email">Elenco:</label></td>
+                    <td><input type="text" ></td>
+                </tr>
+                <br><br>
+                <tr>
+                    <td><label for="fone">Produtora:</label></td>
+                    <td><input type="text" ></td>
+                </tr>
+                <br><br>
+                <tr>
+                    <td><label for="fone">Faixa etária:</label></td>
+                    <td><input type="text" ></td>
+                </tr>
+                <br><br>
+                <tr>
+                    <td><label for="fone">duração do filme:</label></td>
+                    <td><input type="text" ></td>
+                </tr>
+                <br>
+        
+                
+
+                <h3><label for="texto"> Escreva a Sinopse.</label></h3>
+                <br>
+                <textarea name="texto" cols="30" rows="10">Sinopse: </textarea>
+        
+                
+        
+                <br><br>
+        
+                <label for=""></label>
+                <br>
+                <input type="checkbox" name="Filme" checked>Destaque
+
+                <br><br>
+                
+                
+                <br><br>
+        
+        
+                
+            </forms> 
+            
+        
+            </fieldset>
+            </center>
+        </main>
 </center>
 
     <!-- * título de filme
@@ -32,6 +99,8 @@
 <footer>
     Rodapé da página
     <img src="img/Instagram_icon.png.webp" class="insta">
+    <input type="button" value="Salvar" class="salvar">
+    <input type="button" value="Cancelar" class="Cancelar">
 </footer>
 </body>
 </html>
