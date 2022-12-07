@@ -50,11 +50,11 @@ footer {
  }
 
  .filmes{
-   width: 100%;
-   padding-top: 100px;
-   padding-left: 315px; 
-   height: 300px;
-   width: 200px;
+   width: 90%;
+   padding-top: 50px;
+   padding-left: 115px; 
+   height: 500px;
+   width: 300px;
  }
 
  p{
@@ -67,7 +67,7 @@ footer {
  .Watch{
   padding-top: 150px;
   float: left;
- padding-left: 150px;
+ padding-left: 300px;
  }
 
  .fofo{
@@ -76,9 +76,11 @@ footer {
  }
 
  .Texto{
-
+ padding-left: 200px;
   padding-top: 200px;
 
  }
-
+a{
+ text-decoration: none;
+}
 
