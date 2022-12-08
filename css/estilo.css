@@ -34,7 +34,9 @@ footer {
 }
 
 fieldset {
-  position: static;
+  height: 1100px;
+  width: 500px;
+  position: relative;
 }
 
 header {
@@ -157,20 +159,34 @@ h3 {
 } 
 
 
-.CV {
+
+
+
+.esquerda{
+  
+  position: relative;
+
+  height: 10px;
+
+  width: 300px;
 
   background-color: lightgray;
 
   border: 2px solid black;
 
-  width: 300px;
-
   padding: 20px;
-
   color: black;
-
   margin-left: 1000px;
-
-   margin-top: 500px;
-
 }
+
+
+.bot{
+  height: 25px ;
+  width: 400px;
+  text-align: center;
+  color: black;
+  border: 2px solid red;
+  
+  
+}
+

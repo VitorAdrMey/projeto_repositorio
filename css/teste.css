@@ -1,0 +1,950 @@
+body {
+
+
+
+
+
+    margin: 0;
+ 
+ 
+ 
+ 
+     padding: 0;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .container {
+ 
+ 
+ 
+ 
+ 
+ 
+     margin: 0 auto;
+ 
+ 
+ 
+ 
+     padding: 0 2%;
+ 
+ 
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ header {
+ 
+ 
+ 
+ 
+     padding-top: 0 auto;
+ 
+ 
+ 
+ 
+     padding: 8px 0;
+ 
+ 
+ 
+ 
+     background-color: #3a3a3a;
+ 
+ 
+ 
+ 
+     height: 60px;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .enviar{
+ 
+ 
+ 
+ 
+     border: 2px solid black;
+ 
+ 
+ 
+ 
+     width: 100px;
+ 
+ 
+ 
+ 
+     height: 30px;
+ 
+ 
+ 
+ 
+     background-color: #be2d2dd3;
+ 
+ 
+ 
+ 
+     border-radius: 4px;
+ 
+ 
+ 
+ 
+     font-size: larger;
+ 
+ 
+ 
+ 
+     float: right;
+ 
+ 
+ 
+ 
+     margin-right: 10px;
+ 
+ 
+ 
+ 
+     margin-top: 50px;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .logo {
+ 
+ 
+ 
+ 
+     margin-top: -5px;
+ 
+ 
+ 
+ 
+     float: left;
+ 
+ 
+ 
+ 
+     width: 100px;
+ 
+ 
+ 
+ 
+     height: 80px;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .logo h2 {
+ 
+ 
+ 
+ 
+ 
+ 
+     font-weight: bold;
+ 
+ 
+ 
+ 
+     font-size: 4px;
+ 
+ 
+ 
+ 
+     display: inline-block;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .logo a {
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     text-decoration: none;
+ 
+ 
+ 
+ 
+     color: #FFF3E2;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ nav.menu-desktop {
+ 
+ 
+ 
+ 
+ 
+ 
+     float: right;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ nav.menu-desktop ul {
+ 
+ 
+ 
+ 
+ 
+ 
+     position: relative;
+ 
+ 
+ 
+ 
+ 
+ 
+     list-style: none;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ nav.menu-desktop li {
+ 
+ 
+ 
+ 
+ 
+ 
+     padding: 0;
+ 
+ 
+ 
+ 
+     font-weight: bold;
+ 
+ 
+ 
+ 
+     display: inline-block;
+ 
+ 
+ 
+ 
+     font-size: 25px;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ nav.menu-desktop a {
+ 
+ 
+ 
+ 
+ 
+ 
+     text-decoration: none;
+ 
+ 
+ 
+ 
+     color: #FFF3E2;
+ 
+ 
+ 
+ 
+     padding: 20px 30px;
+ 
+ 
+ 
+ 
+     bottom: 0;
+ 
+ 
+ 
+ 
+     position: relative;
+ 
+ 
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ nav.menu-desktop a:hover {
+ 
+ 
+ 
+ 
+ 
+ 
+     background-color: #ff0000;
+ 
+ 
+ 
+ 
+     transition: background .8s;
+ 
+ 
+ 
+ 
+     -webkit-border-radius: 5px;
+ 
+ 
+ 
+ 
+     -moz-border-radius: 5px;
+ 
+ 
+ 
+ 
+     border-radius: 5px;
+ 
+ 
+ 
+ 
+     padding: 3px 30px;
+ 
+ 
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ .esquerda{
+ 
+ 
+ 
+ 
+     float: left;
+ 
+ 
+ 
+ 
+     padding-right: 100px;
+ 
+ 
+ 
+ 
+     border-right: rgb(255, 255, 255) solid 2px;
+ 
+ 
+ 
+ 
+     height: 402px;
+ 
+ 
+ 
+ 
+     padding-left: 100px;
+ 
+ 
+ 
+ 
+     padding-top: 40px;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .direita{
+ 
+ 
+ 
+ 
+     float: right;
+ 
+ 
+ 
+ 
+     padding-left: 100px;
+ 
+ 
+ 
+ 
+ 
+ 
+     padding-right: 200px;
+ 
+ 
+ 
+ 
+     padding-top: 100px;
+ 
+ 
+ 
+ 
+     border-left: #272424 solid 2px;
+ 
+ 
+ 
+ 
+     padding-bottom: 130px;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .textfield>input {
+ 
+ 
+ 
+ 
+     width: 500px;
+ 
+ 
+ 
+ 
+     border: none;
+ 
+ 
+ 
+ 
+     border-radius: 10px;
+ 
+ 
+ 
+ 
+     padding: 15px;
+ 
+ 
+ 
+ 
+     background: #272424;
+ 
+ 
+ 
+ 
+     color: #be2d2dd3;
+ 
+ 
+ 
+ 
+     font-size: 12pt;
+ 
+ 
+ 
+ 
+     box-shadow: 0px 10px 40px #00000056;
+ 
+ 
+ 
+ 
+     border: 2px solid black;
+ 
+ 
+ 
+ 
+     outline: none;
+ 
+ 
+ 
+ 
+     box-sizing: border-box;
+ 
+ 
+ 
+ 
+   }
+ 
+ 
+ 
+ 
+ 
+ 
+   .fonte01{
+ 
+ 
+ 
+ 
+     font-size: larger;
+ 
+ 
+ 
+ 
+ 
+ 
+   }
+ 
+ 
+ 
+ 
+ 
+ 
+   .ios{
+ 
+ 
+ 
+ 
+     padding-left: 90px;
+ 
+ 
+ 
+ 
+   }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .hokage{
+ 
+ 
+ 
+ 
+     background-color: rgb(255, 255, 255);
+ 
+ 
+ 
+ 
+     padding: 3px 0px;
+ 
+ 
+ 
+ 
+     width: 267px;
+ 
+ 
+ 
+ 
+     border:2px solid #be2d2dd3;
+ 
+ 
+ 
+ 
+     border-radius: 5px;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ .hokage:hover{
+ 
+ 
+ 
+ 
+     border: 2px solid black;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ .hokage a:hover {
+ 
+ 
+ 
+ 
+     background-color: black;
+ 
+ 
+ 
+ 
+     transition: background .8s;
+ 
+ 
+ 
+ 
+     -webkit-border-radius: 5px;
+ 
+ 
+ 
+ 
+     -moz-border-radius: 5px;
+ 
+ 
+ 
+ 
+     border-radius: 5px;
+ 
+ 
+ 
+ 
+     padding: 6px 30px;
+ 
+ 
+ 
+ 
+ 
+ 
+   }
+ 
+ 
+ 
+ 
+ 
+ 
+   .hokage a {
+ 
+ 
+ 
+ 
+ 
+ 
+     text-decoration: none;
+ 
+ 
+ 
+ 
+     color: #be2d2dd3;
+ 
+ 
+ 
+ 
+     padding: 10px 30px;
+ 
+ 
+ 
+ 
+     bottom: 0;
+ 
+ 
+ 
+ 
+     position: relative;
+ 
+ 
+ 
+ 
+     font-size: larger;
+ 
+ 
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ .hokage2:hover{
+ 
+ 
+ 
+ 
+     border: 2px solid black;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ .hokage2{
+ 
+ 
+ 
+ 
+     background-color: rgb(255, 255, 255);
+ 
+ 
+ 
+ 
+     padding: 3px 0px;
+ 
+ 
+ 
+ 
+     width: 278px;
+ 
+ 
+ 
+ 
+     border:2px solid #be2d2dd3;
+ 
+ 
+ 
+ 
+     border-radius: 5px;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ .hokage2 a:hover {
+ 
+ 
+ 
+ 
+     background-color: black;
+ 
+ 
+ 
+ 
+     transition: background .8s;
+ 
+ 
+ 
+ 
+     -webkit-border-radius: 5px;
+ 
+ 
+ 
+ 
+     -moz-border-radius: 5px;
+ 
+ 
+ 
+ 
+     border-radius: 5px;
+ 
+ 
+ 
+ 
+     padding: 6px 59px;
+ 
+ 
+ 
+ 
+ 
+ 
+   }
+ 
+ 
+ 
+ 
+ 
+ 
+   .hokage2 a {
+ 
+ 
+ 
+ 
+     text-decoration: none;
+ 
+ 
+ 
+ 
+     color: #be2d2dd3;
+ 
+ 
+ 
+ 
+     padding: 20px 30px;
+ 
+ 
+ 
+ 
+     bottom: 0;
+ 
+ 
+ 
+ 
+     position: relative;
+ 
+ 
+ 
+ 
+     font-size: larger;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .escreva{
+ 
+ 
+ 
+ 
+     padding-top: 30px;
+ 
+ 
+ 
+ 
+     font-size: larger;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ textarea{
+ 
+ 
+ 
+ 
+     border: 2px solid black;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .arquivos{
+ 
+ 
+ 
+ 
+     font-size: larger;
+ 
+ 
+ 
+ 
+     padding-top: 100px;
+ 
+ 
+ 
+ 
+ }
+
+ header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(207, 7, 7);
+    padding: 20px 20px;
+  }
+
+  nav {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer {
+    position: relative;
+    top: 668px;
+    background-color: gainsboro;
+    color: gray;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    line-height: 20px;
+  }
+  
