@@ -1,86 +1,176 @@
-html, body {
-    min-height: 100%;
-}
+html,
 body {
-    padding: 0;
-    margin: 0;
+  min-height: 100%;
 }
-        
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
 footer {
-    position: relative;
-    top: 668px;
-    background-color: gainsboro;
-    color: gray;
-    width: 100%;
-    height: 200px;    
-    text-align: center;
-    line-height: 100px;
+  position: relative;
+  top: 668px;
+  background-color: gainsboro;
+  color: gray;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  line-height: 100px;
 }
- .insta{
-    height: 50px;
-    width: 50px;
-    
- }
 
- .salvar{
-    background-color: greenyellow;
- }
+.insta {
+  height: 50px;
+  width: 50px;
 
- .cancelar{
-    background-color: gray;
- }
+}
 
- fieldset{
-    position: static;
- }
+.salvar {
+  background-color: greenyellow;
+}
 
- header {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: center;
-   background-color: rgb(207, 7, 7);
-   padding: 20px 20px;
- }
- 
- nav {
-   width: 200px;
-   display: flex;
-   justify-content: space-between;
- }
+.cancelar {
+  background-color: gray;
+}
 
- .filmes{
-   width: 90%;
-   padding-top: 50px;
-   padding-left: 115px; 
-   height: 500px;
-   width: 300px;
- }
+fieldset {
+  position: static;
+}
 
- p{
-   margin-left: 400px ;
-   justify-content: center;
-   height: 300px;
-   width: 500px;
- }
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(207, 7, 7);
+  padding: 20px 20px;
+}
 
- .Watch{
+nav {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filmes {
+  width: 90%;
+  padding-top: 50px;
+  padding-left: 115px;
+  height: 500px;
+  width: 300px;
+}
+
+p {
+  margin-left: 400px;
+  justify-content: center;
+  height: 300px;
+  width: 500px;
+}
+
+.Watch {
   padding-top: 150px;
   float: left;
- padding-left: 300px;
- }
-
- .fofo{
-  position: relative;
-  bottom: 1000px;
- }
-
- .Texto{
- padding-left: 200px;
-  padding-top: 200px;
-
- }
-a{
- text-decoration: none;
+  padding-left: 300px;
 }
 
+.fofo {
+  position: relative;
+  bottom: 1000px;
+}
+
+.texto {
+  padding-left: 200px;
+  padding-top: 200px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.GG {
+
+  background-color: white;
+
+  border: 2px solid lightcoral;
+
+  width: 300px;
+
+  padding: 20px;
+
+  color: red;
+
+  margin-left: 150px;
+
+
+
+}
+
+
+
+.dnv {
+
+  margin-left: 190px;
+
+}
+
+
+
+.direita {
+
+  border-left: black solid 2px;
+
+  padding-left: 100px;
+
+  padding-right: 800px;
+
+  padding-bottom: 130px;
+
+  padding-top: 450px;
+
+  float: right;
+
+}
+
+.Texto {
+
+
+
+  padding-top: 200px;
+
+
+
+}
+
+
+
+h3 {
+
+
+
+  padding-right: 150px;
+
+  height: 300px;
+
+  width: 500px;
+
+} 
+
+
+.CV {
+
+  background-color: lightgray;
+
+  border: 2px solid black;
+
+  width: 300px;
+
+  padding: 20px;
+
+  color: black;
+
+  margin-left: 1000px;
+
+   margin-top: 500px;
+
+}
